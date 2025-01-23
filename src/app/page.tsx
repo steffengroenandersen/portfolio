@@ -1,8 +1,8 @@
-import AboutSection from "./about-section";
+import AboutSection from "./sections/about-section";
 import MaxWidthWrapper from "./components/max-width-wrapper";
-import ExperienceSection from "./experience-section";
+import ExperienceSection from "./sections/experience-section";
 import Header from "./header";
-import ProfileSection from "./profile-section";
+import ProfileSection from "./sections/profile-section";
 
 export default function Home() {
   return (
