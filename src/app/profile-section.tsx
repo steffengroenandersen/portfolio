@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProfileSection() {
   return (
-    <section className=" rounded-xl bg-white border">
+    <section className="rounded-xl bg-white border overflow-hidden">
       {/* Cover photo */}
       <div>
         <Image
