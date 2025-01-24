@@ -1,5 +1,5 @@
-import Image from "next/image";
 import education from "./education.json";
+import Image from "next/image";
 
 export default function EducationSection() {
   return (

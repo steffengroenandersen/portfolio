@@ -1,5 +1,5 @@
-import Image from "next/image";
 import jobs from "./experience.json";
+import Image from "next/image";
 
 export default function ExperienceSection() {
   return (
