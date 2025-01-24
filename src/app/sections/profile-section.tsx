@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../components/button";
 
 export default function ProfileSection() {
   return (
@@ -34,6 +35,12 @@ export default function ProfileSection() {
           </div>
           <div>
             <p className="text-sm text-[#666666] font-medium">500+ connections</p>
+
+            <div className="mt-2 flex gap-2">
+              <Button text="Connect" variant="primary" />
+              <Button text="Message" variant="secondary" />
+              <Button text="More" variant="tertiary" />
+            </div>
           </div>
         </div>
       </div>
