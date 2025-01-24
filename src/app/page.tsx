@@ -3,6 +3,7 @@ import MaxWidthWrapper from "./components/max-width-wrapper";
 import ExperienceSection from "./sections/experience-section";
 import Header from "./header";
 import ProfileSection from "./sections/profile-section";
+import PromotedSection from "./sections/promoted-section";
 
 export default function Home() {
   return (
@@ -31,24 +32,8 @@ export default function Home() {
               </div>
 
               {/* Right Sidebar */}
-              <div className="w-1/4 border hidden md:block">
-                {/* Promoted */}
-                <section>Promoted</section>
-
-                {/* More profiles like you */}
-                <section>More profiles like you</section>
-
-                {/* Exlore Premium profiles */}
-                <section>Explore Premium profiles</section>
-
-                {/* People you may know */}
-                <section>People you may know</section>
-
-                {/* You might like */}
-                <section>You might like</section>
-
-                {/* Promoted */}
-                <section>Promoted</section>
+              <div className="w-1/4 hidden md:block">
+                <PromotedSection />
               </div>
             </div>
           </MaxWidthWrapper>
