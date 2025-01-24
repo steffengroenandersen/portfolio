@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "/logo/kea_k_benhavns_erhvervsakademi_logo.jfif",
+    "title": "Copenhagen School of Design and Technology",
+    "name": "AP Degree in Computer Science",
+    "start": "Aug 2022",
+    "end": "Jan 2025",
+    "place": "Copenhagen, Capital Region, Denmark",
+    "description": "The program provides instruction in programming, analysis, and the development and optimization of IT systems."
+  },
+  {
+    "id": 2,
+    "image": "/logo/erhvervsakademi_aarhus_business_academy_aarhus_logo.jfif",
+    "title": "Business Academy Aarhus",
+    "name": "Marketing Management, Entrepreneurship/Entrepreneurial Studies",
+    "start": "Aug 2012",
+    "end": "Jun 2014",
+    "place": "Aarhus, Denmark",
+    "description": "The programme provides extensive knowledge in international sales and marketing as well as insight into financial, legal, cultural, organisational and global issues."
+  },
+  {
+    "id": 3,
+    "image": "/logo/tradium_logo.jpg",
+    "title": "Tradium",
+    "name": "The Higher Commercial Examination Programme, Marketing Management",
+    "start": "Aug 2009",
+    "end": "Jun 2012",
+    "place": "Hobro, Denmark",
+    "description": "The programme provides knowledge in marketing, micro- and macroeconomics and innovation through case related work."
+  }
+]

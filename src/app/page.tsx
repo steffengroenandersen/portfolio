@@ -4,6 +4,7 @@ import ExperienceSection from "./sections/experience-section";
 import Header from "./header";
 import ProfileSection from "./sections/profile-section";
 import PromotedSection from "./sections/promoted-section";
+import EducationSection from "./sections/education-section";
 
 export default function Home() {
   return (
@@ -22,7 +23,8 @@ export default function Home() {
                 <section>Featured</section>
                 <section>Activity</section>
                 <ExperienceSection />
-                <section>Education</section>
+                <EducationSection />
+
                 <section>Licenses & certifications</section>
                 <section>Volunteering</section>
                 <section>Skills</section>

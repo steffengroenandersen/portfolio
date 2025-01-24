@@ -14,7 +14,7 @@ export default function ExperienceSection() {
             </div>
             <div>
               <p className="font-bold">{job.title}</p>
-              <p>{job.name}</p>
+              <p className="text-sm">{job.name}</p>
               <p className="text-sm text-gray-500">
                 {job.start} - {job.end}
               </p>
