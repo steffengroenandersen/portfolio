@@ -23,13 +23,39 @@ export default function PostSection() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-
       <div>
         <Image src="/portfolio-page.png" alt="Portfolio Page" width={1024} height={1024} />
       </div>
-
-      <div>Reactions and comments</div>
-      <div>Like bar</div>
+      <div className="flex justify-between px-5 py-2">
+        <div className="flex">
+          <Image
+            src="/icons/thumbs-up.png"
+            alt="Thumbs up"
+            width={20}
+            height={20}
+            className="object-contain"
+          />
+          <Image src="/icons/heart.png" alt="Thumbs up" width={20} height={20} className="object-contain" />
+          <Image src="/icons/clap.png" alt="Thumbs up" width={20} height={20} className="object-contain" />
+          <Image src="/icons/light.png" alt="Thumbs up" width={20} height={20} className="object-contain" />
+          <p className="ml-2">256</p>
+        </div>
+        <div>
+          <p>
+            2 Comments <span className="mx-1 font-bold">·</span> 3 reposts
+          </p>
+        </div>
+      </div>
+      <hr className="mx-5" />
+      <div className="flex justify-between px-5 py-2">
+        <div>
+          <Image src="/profile.jpg" alt="Profile photo" width={25} height={25} />
+        </div>
+        <div>Like</div>
+        <div>Message</div>
+        <div>Repost</div>
+        <div>Send</div>
+      </div>
     </section>
   );
 }
