@@ -2,10 +2,6 @@ import Button from "../components/button";
 import Image from "next/image";
 
 export default function ProfileSection() {
-  const handleLinkClick = () => {
-    window.location.href = "https://www.linkedin.com/in/steffen-groen-andersen/";
-  };
-
   return (
     <section className="rounded-xl bg-white border overflow-hidden">
       {/* Cover photo */}
