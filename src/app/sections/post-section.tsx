@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PostSection() {
   return (
-    <section className="bg-white rounded-xl  border">
+    <section className="bg-white rounded-xl border">
       {/* header */}
       <div className="flex gap-2 pt-6 px-5">
         <div>
@@ -16,11 +16,14 @@ export default function PostSection() {
       </div>
       <div className="px-5 py-2">
         <p className="text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I created a portfolio website to showcase my projects, treating it as a project in itself. <br />
+          <br />
+          Inspired by LinkedIns design, I replicated its layout to explore and work with its user-friendly
+          structure, which also works well for posting updates. The website was built using Next.js and
+          Tailwind CSS.{" "}
+          <a href="https://github.com/steffengroenandersen/portfolio" className="text-blue-500 underline">
+            Check it out on Github.
+          </a>
         </p>
       </div>
       <div>
