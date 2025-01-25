@@ -2,6 +2,7 @@
 
 import Button from "../components/button";
 import Image from "next/image";
+import { basePath } from "../../../next.config";
 
 export default function PromotedSection() {
   return (
@@ -9,7 +10,7 @@ export default function PromotedSection() {
       <p className="text-center">Steffen would like to hear from you.</p>
 
       <div>
-        <Image src="/profile.jpg" alt="Profile photo" width={75} height={75} />
+        <Image src={`${basePath}/profile.jpg`} alt="Profile photo" width={75} height={75} />
       </div>
       <a href="https://www.linkedin.com/in/steffen-groen-andersen/">
         <Button text="Reach out" variant="secondary" />

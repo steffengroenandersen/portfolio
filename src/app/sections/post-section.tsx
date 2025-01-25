@@ -1,12 +1,12 @@
 import Image from "next/image";
-
+import { basePath } from "../../../next.config";
 export default function PostSection() {
   return (
     <section className="bg-white rounded-xl border">
       {/* header */}
       <div className="flex gap-2 pt-6 px-5">
         <div>
-          <Image src="/profile.jpg" alt="Profile photo" width={48} height={48} />
+          <Image src={`${basePath}/profile.jpg`} alt="Profile photo" width={48} height={48} />
         </div>
         <div>
           <p className="font-semibold">Steffen Grøn Andersen</p>
@@ -27,20 +27,38 @@ export default function PostSection() {
         </p>
       </div>
       <div>
-        <Image src="/portfolio-page.png" alt="Portfolio Page" width={1024} height={1024} />
+        <Image src={`${basePath}/portfolio-page.png`} alt="Portfolio Page" width={1024} height={1024} />
       </div>
       <div className="flex justify-between px-5 py-2">
         <div className="flex">
           <Image
-            src="/icons/thumbs-up.png"
+            src={`${basePath}/icons/thumbs-up.png`}
             alt="Thumbs up"
             width={20}
             height={20}
             className="object-contain"
           />
-          <Image src="/icons/heart.png" alt="Thumbs up" width={20} height={20} className="object-contain" />
-          <Image src="/icons/clap.png" alt="Thumbs up" width={20} height={20} className="object-contain" />
-          <Image src="/icons/light.png" alt="Thumbs up" width={20} height={20} className="object-contain" />
+          <Image
+            src={`${basePath}/icons/heart.png`}
+            alt="Thumbs up"
+            width={20}
+            height={20}
+            className="object-contain"
+          />
+          <Image
+            src={`${basePath}/icons/clap.png`}
+            alt="Thumbs up"
+            width={20}
+            height={20}
+            className="object-contain"
+          />
+          <Image
+            src={`${basePath}/icons/light.png`}
+            alt="Thumbs up"
+            width={20}
+            height={20}
+            className="object-contain"
+          />
           <p className="ml-2">256</p>
         </div>
         <div>
@@ -52,7 +70,7 @@ export default function PostSection() {
       <hr className="mx-5" />
       <div className="flex justify-between px-5 py-2">
         <div>
-          <Image src="/profile.jpg" alt="Profile photo" width={25} height={25} />
+          <Image src={`${basePath}/profile.jpg`} alt="Profile photo" width={25} height={25} />
         </div>
         <div>Like</div>
         <div>Message</div>
