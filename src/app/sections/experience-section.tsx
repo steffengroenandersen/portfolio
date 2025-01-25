@@ -1,6 +1,7 @@
+import { basePath } from "../../../next.config";
+
 import jobs from "./experience.json";
 import Image from "next/image";
-import { basePath } from "../../../next.config";
 
 export default function ExperienceSection() {
   return (
