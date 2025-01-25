@@ -5,8 +5,7 @@ import { useState } from "react";
 export default function AboutSection() {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const text =
-    "I am a dedicated marketer currently transitioning towards development, bringing eight years of experience as a data-driven digital marketing manager. My background encompasses a strong passion for sales, marketing, and entrepreneurship, with a focus on generating tangible impact. I am actively engaged in expanding my skills to cover the entire spectrum of web application development, from the server-side to the user interface. My goal is to contribute to creating robust and scalable solutions.";
+  const text = `I am passionate about honing my skills as a full-stack developer to handle all aspects of web application development - from server-side to the user interface. My goal is to contribute to creating reliable and scalable solutions that are used by many people. I have over 10 years of experience as a digital marketing specialist, with a strong interest in sales, marketing and entrepreneurship with a strong focus on delivering tangible results. This experience enriches my daily work as a developer.`;
 
   const previewText = text.slice(0, 295);
   return (

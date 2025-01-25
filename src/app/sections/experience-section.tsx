@@ -9,7 +9,7 @@ export default function ExperienceSection() {
       {jobs.map((job, index) => (
         <div key={job.id}>
           <div className="flex gap-3">
-            <div className="">
+            <div className="flex-shrink-0">
               <Image src={job.image} alt="logo" width={48} height={48}></Image>
             </div>
             <div>

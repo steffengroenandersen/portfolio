@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
-        <main className="bg-[#F4F2EE] grow ">
+        <main className="bg-[#F4F2EE] grow">
           <MaxWidthWrapper>
-            <div className="flex px-10 gap-5 mt-5">
+            <div className="flex justify-center px-10 gap-5 mt-5">
               {/* Main Content */}
-              <div className="w-full m:w-3/4 gap-2 flex flex-col">
+              <div className="w-full m:w-3/5 gap-2 flex flex-col">
                 <ProfileSection />
                 <AboutSection />
                 <PostSection />
@@ -23,7 +23,7 @@ export default function Home() {
               </div>
 
               {/* Right Sidebar */}
-              <div className="w-1/4 hidden lg:block">
+              <div className="w-2/5 hidden lg:block">
                 <PromotedSection />
               </div>
             </div>

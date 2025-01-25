@@ -9,7 +9,7 @@ export default function EducationSection() {
       {education.map((school, index) => (
         <div key={school.id}>
           <div className="flex gap-3">
-            <div className="">
+            <div className="flex-shrink-0">
               <Image src={school.image} alt="logo" width={48} height={48}></Image>
             </div>
             <div>

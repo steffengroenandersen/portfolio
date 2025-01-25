@@ -30,7 +30,7 @@ export default function Header() {
             <div>
               <Image src="/logo/LinkedIn_icon.svg.webp" alt="Logo" width={38} height={38} />
             </div>
-            <div className="hidden lg:flex items-center bg-blue-100 rounded-md px-2 border w-[135]">
+            <div className="hidden lg:flex items-center bg-blue-100 rounded-md px-2 border w-[130]">
               <Image src="/icons/search.png" alt="Search icon" width={16} height={16} />
               <input
                 type="text"

@@ -7,7 +7,7 @@
     "start": "Mar 2024",
     "end": "Present",
     "place": "Copenhagen, Capital Region, Denmark",
-    "description": "Development on Confect.io in Next.js and supporting marketing."
+    "description": "I contributed to the development of new screens and features for Confect's marketing website using Next.js and to the main application built with Angular. My primary accomplishment was a complete redesign of the registration/signup flow, where I led the visual design and implemented the validation and user feedback processes, delivering a significant upgrade to the user experience."
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "start": "Sep 2022",
     "end": "Feb 2024",
     "place": "Copenhagen, Capital Region, Denmark",
-    "description": "Development of basic functionality to our service in Vue.js and supporting sales and marketing."
+    "description": "I contributed to the development of basic functionality for our service using Vue.js, added new Mapbox layers to our platform, and set up Amplitude tracking to enhance analytics. Additionally, I supported sales and marketing efforts through our CRM platform and paid advertising campaigns. My work involved utilizing skills in TypeScript, Vue.js, SQL, Git, and Amplitude Analytics."
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "start": "Feb 2022",
     "end": "Aug 2022",
     "place": "Copenhagen, Capital Region, Denmark",
-    "description": "Responsible for CRM implementation and marketing activities."
+    "description": "I was responsible for implementing a new CRM platform, streamlining our paid ads setup along with tracking and attribution solutions, and collaborating with an agency to deliver a new brand video and accompanying creatives."
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "start": "Oct 2021",
     "end": "Jan 2022",
     "place": "Copenhagen, Capital Region, Denmark",
-    "description": "Responsible for developing and executing campaigns with our clients."
+    "description": "I was responsible for developing new paid marketing strategies, planning and executing campaigns, and evaluating the ROI of marketing initiatives for our clients to ensure their effectiveness."
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "start": "Dec 2022",
     "end": "Sep 2021",
     "place": "Copenhagen, Capital Region, Denmark",
-    "description": "Responsible for and executing on all marketing channels."
+    "description": "I was responsible for developing new paid marketing strategies, planning and executing internal campaigns, and evaluating the ROI of marketing initiatives to ensure their success."
   },
   {
     "id": 6,
@@ -57,6 +57,6 @@
     "start": "Jan 2014",
     "end": "Nov 2022",
     "place": "Copenhagen, Capital Region, Denmark",
-    "description": "Strategy and project management, campaign and budget planning, training and mentoring colleagues."
+    "description": "I was responsible for developing revenue and lead-generating strategies for both B2B and B2C audiences, managing and overseeing various projects, and training and mentoring employees internally and externally. Additionally, I handled budget planning, setting targets, and overseeing the planning of marketing initiatives and materials."
   }
 ]
