@@ -1,5 +1,6 @@
 import Button from "../components/button";
 import Image from "next/image";
+import { basePath } from "../../../next.config";
 
 export default function ProfileSection() {
   return (

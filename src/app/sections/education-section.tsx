@@ -1,6 +1,8 @@
 import education from "./education.json";
 import Image from "next/image";
 
+import { basePath } from "../../../next.config";
+
 export default function EducationSection() {
   return (
     <section className="bg-white rounded-xl py-6 px-5 border">

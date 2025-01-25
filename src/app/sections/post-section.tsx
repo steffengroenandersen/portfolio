@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { basePath } from "../../../next.config";
+
 export default function PostSection() {
   return (
     <section className="bg-white rounded-xl border">
