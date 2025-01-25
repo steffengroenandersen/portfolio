@@ -2,6 +2,10 @@ import Button from "../components/button";
 import Image from "next/image";
 
 export default function ProfileSection() {
+  const handleLinkClick = () => {
+    window.location.href = "https://www.linkedin.com/in/steffen-groen-andersen/";
+  };
+
   return (
     <section className="rounded-xl bg-white border overflow-hidden">
       {/* Cover photo */}
@@ -37,9 +41,15 @@ export default function ProfileSection() {
             <p className="text-sm text-[#666666] font-medium">500+ connections</p>
 
             <div className="mt-2 flex gap-2">
-              <Button text="Connect" variant="primary" />
-              <Button text="Message" variant="secondary" />
-              <Button text="More" variant="tertiary" />
+              <a href="https://www.linkedin.com/in/steffen-groen-andersen/">
+                <Button text="Connect" variant="primary" />
+              </a>
+              <a href="https://www.linkedin.com/in/steffen-groen-andersen/">
+                <Button text="Message" variant="secondary" />
+              </a>
+              <a href="https://www.linkedin.com/in/steffen-groen-andersen/">
+                <Button text="More" variant="tertiary" />
+              </a>
             </div>
           </div>
         </div>
