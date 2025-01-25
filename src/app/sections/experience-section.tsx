@@ -1,5 +1,6 @@
 import jobs from "./experience.json";
 import Image from "next/image";
+import { basePath } from "../../../next.config";
 
 export default function ExperienceSection() {
   return (
@@ -10,7 +11,7 @@ export default function ExperienceSection() {
         <div key={job.id}>
           <div className="flex gap-3">
             <div className="flex-shrink-0">
-              <Image src={job.image} alt="logo" width={48} height={48}></Image>
+              <Image src={`${basePath}${job.image}`} alt="logo" width={48} height={48}></Image>
             </div>
             <div>
               <p className="font-bold">{job.title}</p>

@@ -1,20 +1,26 @@
+import { basePath } from "../../../next.config";
 import Button from "../components/button";
 import Image from "next/image";
-import { basePath } from "../../../next.config";
 
 export default function ProfileSection() {
   return (
     <section className="rounded-xl bg-white border overflow-hidden">
       {/* Cover photo */}
       <div>
-        <Image src="/cover-photo.png" alt="Cover photo" layout="responsive" width={1400} height={350}></Image>
+        <Image
+          src={`${basePath}/cover-photo.png`}
+          alt="Cover photo"
+          layout="responsive"
+          width={1400}
+          height={350}
+        ></Image>
       </div>
 
       {/* Details */}
       <div className="py-6 px-5">
         <div className="mt-[-112px]">
           <div className="z-10  bg-white rounded-full overflow-hidden w-[150px] h-[150px]">
-            <Image src="/profile.jpg" alt="Profile photo" width={150} height={150}></Image>
+            <Image src={`${basePath}/profile.jpg`} alt="Profile photo" width={150} height={150}></Image>
           </div>
         </div>
         <div className="flex flex-col gap-2">

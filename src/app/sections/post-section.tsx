@@ -1,10 +1,9 @@
-import Image from "next/image";
 import { basePath } from "../../../next.config";
+import Image from "next/image";
 
 export default function PostSection() {
   return (
     <section className="bg-white rounded-xl border">
-      {/* header */}
       <div className="flex gap-2 pt-6 px-5">
         <div>
           <Image src={`${basePath}/profile.jpg`} alt="Profile photo" width={48} height={48} />

@@ -12,7 +12,7 @@ export default function EducationSection() {
         <div key={school.id}>
           <div className="flex gap-3">
             <div className="flex-shrink-0">
-              <Image src={school.image} alt="logo" width={48} height={48}></Image>
+              <Image src={`${basePath}${school.image}`} alt="logo" width={48} height={48}></Image>
             </div>
             <div>
               <p className="font-bold">{school.title}</p>
