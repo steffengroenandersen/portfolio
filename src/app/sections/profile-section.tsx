@@ -6,13 +6,7 @@ export default function ProfileSection() {
     <section className="rounded-xl bg-white border overflow-hidden">
       {/* Cover photo */}
       <div>
-        <Image
-          src="/cover-photo.jfif"
-          alt="Cover photo"
-          layout="responsive"
-          width={1400}
-          height={350}
-        ></Image>
+        <Image src="/cover-photo.png" alt="Cover photo" layout="responsive" width={1400} height={350}></Image>
       </div>
 
       {/* Details */}
