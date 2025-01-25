@@ -16,16 +16,14 @@ export default function Home() {
               {/* Main Content */}
               <div className="w-full m:w-3/4 gap-2 flex flex-col">
                 <ProfileSection />
-
                 <AboutSection />
                 <PostSection />
-
                 <ExperienceSection />
                 <EducationSection />
               </div>
 
               {/* Right Sidebar */}
-              <div className="w-1/4 hidden md:block">
+              <div className="w-1/4 hidden lg:block">
                 <PromotedSection />
               </div>
             </div>
