@@ -3,7 +3,7 @@ import MaxWidthWrapper from "./components/max-width-wrapper";
 
 export default function Header() {
   return (
-    <header className="bg-white h-[53px]">
+    <header className="bg-white h-[53px] border-b">
       <MaxWidthWrapper>
         <div className="flex justify-between px-10 items-center h-full">
           {/* Logo and Search */}

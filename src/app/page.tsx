@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col min-h-screen">
-        <main className="bg-[#F4F2EE] grow border-2">
+        <main className="bg-[#F4F2EE] grow ">
           <MaxWidthWrapper>
             <div className="flex px-10 gap-5 mt-5">
               {/* Main Content */}
