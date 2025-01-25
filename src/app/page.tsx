@@ -4,6 +4,7 @@ import EducationSection from "./sections/education-section";
 import PromotedSection from "./sections/promoted-section";
 import ProfileSection from "./sections/profile-section";
 import AboutSection from "./sections/about-section";
+import PostSection from "./sections/post-section";
 
 export default function Home() {
   return (
@@ -17,18 +18,10 @@ export default function Home() {
                 <ProfileSection />
 
                 <AboutSection />
+                <PostSection />
 
-                <section>Featured</section>
-                <section>Activity</section>
                 <ExperienceSection />
                 <EducationSection />
-
-                <section>Licenses & certifications</section>
-                <section>Volunteering</section>
-                <section>Skills</section>
-                <section>Recommendations</section>
-                <section>Languages</section>
-                <section>Interests</section>
               </div>
 
               {/* Right Sidebar */}

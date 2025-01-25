@@ -16,7 +16,7 @@ export default function ProfileSection() {
       </div>
 
       {/* Details */}
-      <div className="p-4">
+      <div className="py-6 px-5">
         <div className="mt-[-112px]">
           <div className="z-10  bg-white rounded-full overflow-hidden w-[150px] h-[150px]">
             <Image src="/profile.jpg" alt="Profile photo" width={150} height={150}></Image>

@@ -10,7 +10,7 @@ export default function AboutSection() {
 
   const previewText = text.slice(0, 295);
   return (
-    <section className="bg-white rounded-xl p-4 border">
+    <section className="bg-white rounded-xl py-6 px-5 border">
       <h2 className="text-xl font-bold">About</h2>
       <p>
         {isExpanded ? text : `${previewText}...`}
